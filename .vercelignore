@@ -1,0 +1,11 @@
+.git
+.vercel
+.site-build
+node_modules
+design-system
+scripts
+*.md
+package.json
+package-lock.json
+.gitignore
+.vercelignore
