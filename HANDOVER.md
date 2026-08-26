@@ -4,6 +4,14 @@
 
 Präsentationsfertige öffentliche Kunden-Vorschau, erstellt am 27.08.2026. Das Projekt ist bewusst noch kein finaler Produktionsauftritt: Betreiberangaben, Rechtsfreigaben, Öffnungszeiten und eigene Salonmedien werden nach dem Kundenreview ergänzt.
 
+## Veröffentlichungsnachweis
+
+- Privates Repository: https://github.com/denniklose/daniela-mankel · Branch `main`
+- Separates Vercel-Projekt: `timmachtsachen/daniela-mankel`
+- Öffentliche Preview: https://daniela-mankel.vercel.app/
+- Verifizierter Deploy: `dpl_DvkRLpk4oZfR5tWBMDHxQLk81bWk` · Status `READY`
+- Preview-Schutz: `noindex`, `nofollow`, `noarchive`, `nosnippet`, `noimageindex`; interne Markdown-/Script-/Credential-Dateien bleiben außerhalb des öffentlichen Build-Artefakts.
+
 ## Bereits recherchiert und umgesetzt
 
 - Identität: Daniela Mankel, Friseursalon, Grubenstraße 5, 57223 Kreuztal-Littfeld.
