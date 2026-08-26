@@ -4,3 +4,5 @@ node_modules/
 .site-build/
 test-results/
 npm-debug.log*
+.vercel
+.env*
