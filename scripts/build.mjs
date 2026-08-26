@@ -32,7 +32,12 @@ async function copyDirectory(sourceDirectory) {
       await mkdir(destination, { recursive: true });
       await copyDirectory(source);
     }
-    if (entry.isFile() && !excludedFiles.has(entry.name) && !entry.name.endsWith(".md")) {
+    if (
+      entry.isFile() &&
+      !entry.name.startsWith(".env") &&
+      !excludedFiles.has(entry.name) &&
+      !entry.name.endsWith(".md")
+    ) {
       await mkdir(path.dirname(destination), { recursive: true });
       await copyFile(source, destination);
     }
